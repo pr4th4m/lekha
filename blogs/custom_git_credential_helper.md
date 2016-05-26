@@ -1,21 +1,10 @@
----
-layout: post
-title:  "Custom git credential helper"
-date:   2016-05-16
-excerpt: "A custom git credential helper in python"
-tag:
-- python
-- git
-comments: true
----
-
-### Git credential helper:
+#### Git credential helper:
 Git credential helper is used to save user credentials, so that user does not require to enter credentials on each git operation.
 Git provides few default git credential helpers, [see how to use them](https://git-scm.com/docs/gitcredentials).
 This blog will demonstrate on how to build custom git credential helper.
 
 
-### Simple python cli:
+#### Simple python cli:
 - Let's write a python cli called `auth_helper.py`
 
         #!/usr/bin/env python
@@ -61,14 +50,14 @@ This blog will demonstrate on how to build custom git credential helper.
 - These arguments are not coincident, they are used by git. Let's know more about them.
 
 
-### Git credentials store:
+#### Git credentials store:
 - Git credentials store looks for three arguments
     - `get`: called when triggered git pull, git fetch, git push etc.
     - `store`: called when triggered git pull, git fetch, git push etc.
     - `erase`: if our provided credentials fail, git will fallback to its own credentials prompt, if this fails as well `erase` is called.
 
 
-### Git helper configuration:
+#### Git helper configuration:
 - To configure our cli as git helper, trigger the below command
 
         git config --global credential.https://git.company.com.helper "./path/to/cli/auth_helper.py"

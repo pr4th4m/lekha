@@ -1,20 +1,8 @@
----
-layout: post
-title:  "Netrc Python Client"
-date:   2016-05-13
-excerpt: "Simple python client for netrc"
-project: true
-tag:
-- netrc
-- python
-comments: true
----
-
-### What is Netrc file ?
+#### What is Netrc file ?
 Netrc file contains user credentials and is used to auto-login. It is usually located in users home directory `.netrc` but location can be overridden with `NETRC` environment variable. Netrc also supports macros `macdef` to automate tasks. Netrc can be used with ftp, curl, git etc.
 
 
-### Netrc file sample:
+#### Netrc file sample:
 
     ~ $ cat .netrc
     machine product.company.com
@@ -26,17 +14,17 @@ Netrc file contains user credentials and is used to auto-login. It is usually lo
     command2
 
 
-### Get client:
+#### Get client:
 
     curl -o netrc_client.py  "https://gist.githubusercontent.com/pratz/789dc165c6d9f79be86608547b128c69/raw/41fb7796f6b6d0a09ac5ddeaf8c79de30a2387ed/NetRc%2520-%2520read,%2520write,%2520update"
 
 
-### Client compatibility:
+#### Client compatibility:
     - Linux/Mac
     - Python 2.7.x
 
 
-### Usage:
+#### Usage:
 
     # create client
     netrc_instance = NetRc(
@@ -54,10 +42,10 @@ Netrc file contains user credentials and is used to auto-login. It is usually lo
     netrc_instance.create_or_update(path=NETRC_FILE_PATH)
 
 
-### Warning:
+#### Warning:
 - Netrc stores credentials in plan text. This is how netrc is meant to be ;)
 
 
-### Use case:
+#### Use case:
 - Its a good idea to use netrc when you have token based authentication.
 - Automation for service accounts with token based authentication.

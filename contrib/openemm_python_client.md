@@ -1,30 +1,18 @@
----
-layout: post
-title:  "OpenEMM python client"
-date:   2015-10-10
-excerpt: "Python client for email maketing application OpenEMM"
-project: true
-tag:
-- python
-- openemm
-comments: true
----
-
-### Py-OpenEMM
+#### Py-OpenEMM
 [**OpenEMM**](http://www.openemm.org) is a feature-rich web-based enterprise application for email marketing, newsletters and service mails.
 
 
-### Pre-requisites:
+#### Pre-requisites:
 - Python 2.7 or higher
 - Python Suds 0.4 or higher
 
 
-### Installation:
+#### Installation:
 - Clone repo
 
         git clone https://github.com/pratz/py-openemm.git
 
-### Configuration:
+#### Configuration:
 - Move to directory where you have cloned the repo
 
         cd py-openemm/pyopenemm
@@ -37,7 +25,7 @@ comments: true
         WEBSERVICE_PASSWORD = 'test_123'
 
 
-### Usage:
+#### Usage:
 - Create client connection
 
         from pyopenemm.connection.connect import create_connection

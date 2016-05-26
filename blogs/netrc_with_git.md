@@ -1,19 +1,8 @@
----
-layout: post
-title:  "Git auto-login with netrc"
-date:   2016-05-13
-excerpt: "Use netrc to store git credentials"
-tag:
-- netrc
-- git
-comments: true
----
-
-### What is Netrc file ?
+#### What is Netrc file ?
 Netrc file contains user credentials and is used to auto-login. It is usually located in users home directory `.netrc` but location can be overridden with `NETRC` environment variable. Netrc also supports macros `macdef` to automate tasks. Netrc can be used with ftp, curl, git etc.
 
 
-### Netrc file:
+#### Netrc file:
 - Create file named `.netrc` in home directory.
 - Lets consider your git server is hosted on domain `git.company.com`
 
@@ -22,7 +11,7 @@ Netrc file contains user credentials and is used to auto-login. It is usually lo
         login first.last
         password secret-password
 
-### Secure netrc file:
+#### Secure netrc file:
 - As `.netrc` is used to store credentials, lets secure the file.
 
         ~ $ chmod 0600 ~/.netrc
@@ -31,10 +20,10 @@ Netrc file contains user credentials and is used to auto-login. It is usually lo
 That's it, next time when you use git for domain `git.company.com`, git should pick up the credentials on behalf of you ;)
 
 
-### Warning:
+#### Warning:
 - Netrc stores credentials in plan text. This is how netrc is meant to be ;)
 
 
-### Use case:
+#### Use case:
 - Its a good idea to use netrc when you have token based authentication.
 - Automation for service accounts with token based authentication.
