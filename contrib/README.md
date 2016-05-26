@@ -1,2 +1,2 @@
 #### Open Source Contribution
-Stuff I have tried to contrbute back to open source community
+Stuff I tried to contribute back to open source community
