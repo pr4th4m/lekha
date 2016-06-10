@@ -13,6 +13,9 @@
 
 - [**Snippets**](snippets/README.md)
 
+    - [**Vim**](snippets/vim/README.md)
+        - [Fugitive](snippets/vim/fugitive.md)
+
     - [**Lxc**](snippets/lxc/README.md)
         - [Port Forwarding](snippets/lxc/port_forwarding.md)
 
