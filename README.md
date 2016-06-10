@@ -12,3 +12,7 @@ Blogs, articles and write-ups related to technology
 
 - [**Dev Environment Series**](env/README.md)
     - [Mid 2016](env/mid_2016.md)
+
+- [**Snippets**](snippet/README.md)
+    - [**Lxc**](snippet/lxc/README.md)
+        - [Port Forwarding](snippet/lxc/port_forwarding.md)
