@@ -3,6 +3,7 @@ Small snippets, tricks, briefs etcs
 
 - [**Vim**](vim/README.md)
     - [Fugitive](vim/fugitive.md)
+    - [Tips](vim/tips.md)
 
 - [**Lxc**](lxc/README.md)
     - [Port Forwarding](lxc/port_forwarding.md)

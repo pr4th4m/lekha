@@ -18,6 +18,7 @@ Blogs, articles and write-ups related to technology
 
     - [**Vim**](snippets/vim/README.md)
         - [Fugitive](snippets/vim/fugitive.md)
+        - [Tips](snippets/vim/tips.md)
 
     - [**Lxc**](snippets/lxc/README.md)
         - [Port Forwarding](snippets/lxc/port_forwarding.md)
