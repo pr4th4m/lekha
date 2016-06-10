@@ -10,5 +10,9 @@
     - [Mid 2016](env/mid_2016.md)
 
 - [**Snippets**](snippet/README.md)
+
     - [**Lxc**](snippet/lxc/README.md)
         - [Port Forwarding](snippet/lxc/port_forwarding.md)
+
+    - [**Ssh**](snippet/ssh/README.md)
+        - [Tips](snippet/ssh/tips.md)
