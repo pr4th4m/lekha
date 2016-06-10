@@ -19,3 +19,6 @@
     - [**Ssh**](snippet/ssh/README.md)
         - [Generate key](snippets/ssh/generate_key.md)
         - [Tips](snippets/ssh/tips.md)
+
+    - [**Vagrant**](snippets/vagrant/README.md)
+        - [Import virtual box vm](snippets/vagrant/import_virtual_box_vm.md)
