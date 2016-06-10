@@ -11,7 +11,7 @@
 
 
 ---------------------
-##### Physical Volumes:
+#### Physical Volumes:
 **Listing Volumes:**
    ```
    PV         VG      Fmt  Attr PSize   PFree   DevSize PV UUID
@@ -72,7 +72,7 @@
    ```
 
 ---------------------
-##### Volume Groups:
+#### Volume Groups:
 **Listing Volumes:**
    ```
    VG      Attr   Ext   #PV #LV #SN VSize   VFree   VG UUID                                VProfile
@@ -153,7 +153,7 @@
    ```
 
 ---------------------
-##### Logical Volumes:
+#### Logical Volumes:
 **Listing Volumes:**
    ```
    LV    VG      Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert

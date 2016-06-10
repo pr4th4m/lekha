@@ -14,10 +14,11 @@ Blogs, articles and write-ups related to technology
 - [**Dev Environment Series**](env/README.md)
     - [Mid 2016](env/mid_2016.md)
 
-- [**Snippets**](snippet/README.md)
+- [**Snippets**](snippets/README.md)
 
-    - [**Lxc**](snippet/lxc/README.md)
-        - [Port Forwarding](snippet/lxc/port_forwarding.md)
+    - [**Lxc**](snippets/lxc/README.md)
+        - [Port Forwarding](snippets/lxc/port_forwarding.md)
 
     - [**Ssh**](snippet/ssh/README.md)
-        - [Tips](snippet/ssh/tips.md)
+        - [Generate key](snippets/ssh/generate_key.md)
+        - [Tips](snippets/ssh/tips.md)
