@@ -1,4 +1,5 @@
 - [**Blogs**](blogs/README.md)
+    - [LVM Guide](blogs/lvm_guide.md)
     - [Custom git credential helper](blogs/custom_git_credential_helper.md)
     - [Git auto-login with NetRc](blogs/netrc_with_git.md)
     - [On-prem Ansible Galaxy](blogs/on_prem_ansible_galaxy.md)
